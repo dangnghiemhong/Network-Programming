@@ -112,7 +112,7 @@ int main() {
 
             client_count++;
 
-            if (client_count == 2) {
+            if (client_count % 2 = 0 && client_count > 1) {
                 printf("Two clients connected. Chat session started.\n");
             }
         } //else {
